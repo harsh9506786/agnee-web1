@@ -52,7 +52,7 @@ const team = [
   {
     name: "Chitransh Tiwari",
     role: "Creative Head",
-    desc: "Chitransh Tiwari leads the creative direction at Agnee. He works on visual storytelling, motion graphics and advertising creatives that help brands stand out in crowded d",
+    desc: "Chitransh Tiwari leads the creative direction at Agnee. He works on visual storytelling, motion graphics and advertising creatives that help brands stand out in crowded digital spaces. His approach combines strong design thinking with impactful visuals.",
     seed: "Chitransh",
     img: chitranshimg,
   },

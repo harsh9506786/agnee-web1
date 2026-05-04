@@ -1,16 +1,16 @@
 import React, { useRef, useEffect, useState, useMemo } from "react";
 import { motion, useInView } from "framer-motion";
 import { CheckCircleIcon } from "lucide-react";
-import saasIcon from "../assets/industryicons/Icons-01.png";
-import healthcareIcon from "../assets/industryicons/Icons-02.png";
-import agriIcon from "../assets/industryicons/Icons-03.png";
-import educationIcon from "../assets/industryicons/Icons-04.png";
-import realestateIcon from "../assets/industryicons/Icons-05.png";
-import ecommerceIcon from "../assets/industryicons/Icons-06.png";
-import corporateIcon from "../assets/industryicons/Icons-07.png";
-import manufacturingIcon from "../assets/industryicons/Icons-08.png";
-import politicalIcon from "../assets/industryicons/Icons-09.png";
-import startupIcon from "../assets/industryicons/Icons-10.png";
+import saasIcon from "../assets/industryicons/Icons-06.png";
+import healthcareIcon from "../assets/industryicons/Icons-05.png";
+import agriIcon from "../assets/industryicons/Icons-07.png";
+import educationIcon from "../assets/industryicons/Icons-08.png";
+import realestateIcon from "../assets/industryicons/Icons-09.png";
+import ecommerceIcon from "../assets/industryicons/Icons-10.png";
+import corporateIcon from "../assets/industryicons/Icons-01.png";
+import manufacturingIcon from "../assets/industryicons/Icons-02.png";
+import politicalIcon from "../assets/industryicons/Icons-03.png";
+import startupIcon from "../assets/industryicons/Icons-04.png";
 
 const industries = [
   { name: "SaaS and Technology", icon: saasIcon },

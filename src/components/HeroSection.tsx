@@ -340,7 +340,8 @@ function HeroSection() {
             fontSize: "clamp(1rem, 2.2vw, 2.2rem)",
           }}
         >
-          Where brand design meets AI-powered
+          Where brand design meets
+          <br className="block sm:hidden" /> AI-powered
           <br />
           web solutions creating digital experiences that scale.
         </p>
