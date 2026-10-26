@@ -1,17 +1,13 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import shubhamimg from "../assets/team/shubhamwebp.webp";
-import chitranshimg from "../assets/team/chitranshwebp.webp";
 import rishabhimg from "../assets/team/rishabhwebp.webp";
 import rishiimg from "../assets/team/rishiwebp.webp";
 import shivaimg from "../assets/team/shivawebp.webp";
 import harshimg from "../assets/team/harshwebp.webp";
-import anshulimg from "../assets/team/anshulwebp.webp";
 import dishitaimg from "../assets/team/dikhshitawebp.webp";
-import piyushimg from "../assets/team/piyushwebp.webp";
-import shailendraimg from "../assets/team/shailendrawebp.webp";
 import praveenimg from "../assets/team/praveenwebp.webp";
-import chitranimg from "../assets/team/chitranwebp.webp";
+
 const team = [
   {
     name: "Shubham Joshi",
@@ -47,43 +43,6 @@ const team = [
     desc: "Rishi Tiwari supports the team with operations and client relationship management. His role focuses on maintaining smooth workflows, ensuring strong communication with clients and making sure every project moves forward efficiently from planning to delivery.",
     seed: "Rishi",
     img: rishiimg,
-  },
-
-  {
-    name: "Chitransh Tiwari",
-    role: "Creative Head",
-    desc: "Chitransh Tiwari leads the creative direction at Agnee. He works on visual storytelling, motion graphics and advertising creatives that help brands stand out in crowded digital spaces. His approach combines strong design thinking with impactful visuals.",
-    seed: "Chitransh",
-    img: chitranshimg,
-  },
-
-  {
-    name: "Shailendra Joshi",
-    role: "Lead – Print & Publications",
-    desc: "Shailendra Joshi brings more than twenty five years of experience in print and publication design. He has worked extensively on layout design, editorial formats and print production, helping brands present their content in a clear, professional and visually appealing way. His deep understanding of typography, structure and print aesthetics ensures every publication looks refined and impactful.",
-    seed: "Shailendra",
-    img: shailendraimg,
-  },
-  {
-    name: "Chitran Tiwari",
-    role: "Business Marketing Head",
-    desc: "Chitran Tiwari leads the marketing and growth initiatives at Agnee, focusing on building strong brand positioning and effective marketing strategies. He works closely on campaign planning, business development and market outreach, ensuring that every effort is aligned with measurable growth and long-term brand success.",
-    seed: "chitran",
-    img: chitranimg,
-  },
-  {
-    name: "Anshul Joshi",
-    role: "Print & Publication Specialist",
-    desc: "Anshul Joshi has over fifteen years of experience in print and publication layout design. He focuses on creating well structured layouts for magazines, reports, brochures and other printed materials. His attention to detail and understanding of print formatting helps ensure every design maintains clarity, consistency and strong visual balance.",
-    seed: "Anshul",
-    img: anshulimg,
-  },
-  {
-    name: "Piyush Tiwari",
-    role: "Lead – Digital Marketing",
-    desc: "Piyush Tiwari leads digital marketing initiatives at Agnee. His work focuses on building structured online growth strategies through social media marketing, paid advertising and performance driven campaigns. He helps businesses strengthen their digital presence and reach the right audience with effective marketing systems.",
-    seed: "piyush",
-    img: piyushimg,
   },
   {
     name: "Dishita Soni",
