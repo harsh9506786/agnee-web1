@@ -1,11 +1,14 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import shubhamimg from "../assets/team/shubhamwebp.webp";
+
 import rishabhimg from "../assets/team/rishabhwebp.webp";
 import rishiimg from "../assets/team/rishiwebp.webp";
 import shivaimg from "../assets/team/shivawebp.webp";
 import harshimg from "../assets/team/harshwebp.webp";
+
 import dishitaimg from "../assets/team/dikhshitawebp.webp";
+
 import praveenimg from "../assets/team/praveenwebp.webp";
 
 const team = [
@@ -36,13 +39,6 @@ const team = [
     desc: "Shiva Gupta leads the technology and development side of Agnee. His work focuses on building scalable websites, applications and digital tools that support modern businesses. He works on system architecture, development strategy and technical execution to ensure that every digital product is stable, secure and future ready.",
     seed: "Shiva",
     img: shivaimg,
-  },
-  {
-    name: "Rishi Tiwari",
-    role: "Senior Advisor",
-    desc: "Rishi Tiwari supports the team with operations and client relationship management. His role focuses on maintaining smooth workflows, ensuring strong communication with clients and making sure every project moves forward efficiently from planning to delivery.",
-    seed: "Rishi",
-    img: rishiimg,
   },
   {
     name: "Dishita Soni",
